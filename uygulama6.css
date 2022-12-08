@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #9E7676, #594545);
+    position: fixed !important; 
+    width: 100%;
+    z-index: 2;
+} 
+
+#logo {
+    padding: 12px 0 12px 150px;
+}
+
+.imag {
+    width: 110px;
+}
+
+.navs {
+    display: inline-block;
+    text-align: right;
+    padding-right: 150px;
+}
+
+.navs a {
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 25px;
+    color: white;
+    font-family: 'Segoe UI';
+    letter-spacing: 1px;
+}
+
+.navs a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#buton {
+    background-color: #C21010;
+    border: 2px solid #C21010;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px 20px;
+}
+
+#buton:hover {
+    background-color: white;
+    border: 2px solid #C21010;
+    border-radius: 5px;
+    color: #C21010;
+    transition-duration: .7s;
+}
+
+.background {
+    background-image: url(yeni.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(178, 181, 205, 0.6);
+    color: white;
+    padding: 25px;
+    font-family: 'Trebuchet MS';
+}
+
+.main-1 {
+    text-align: center;
+    padding: 35px;
+    font-family: 'Trebuchet MS';
+}
+
+.main-2 {
+    text-align: center;
+    margin: 0 80px;
+    font-family: 'Trebuchet MS';
+}
+
+#col {
+    display: inline-block;
+    width: 33%;
+    padding: 0 80px;
+}
+
+#col .fa {
+    color: #D36B00;
+    font-size: 40px;
+    padding-bottom: 13px;
+}
+
+#movies h2 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+.container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.col-3 {
+    margin: 0 50px;
+}
+
+.container .cardd .face {
+    width: 250px;
+    height: 300px;
+    transition: 0.6s;
+}
+
+.container .cardd .face.face1 {
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/71BPuv+iRbL.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(0px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+
+.container .cardd:hover .face.face1{
+    transform: translateY(0px);
+}
+
+.container .cardd .face.face1 .content {
+    transition: 0.6s;
+}
+
+.container .cardd .face.face11 {
+    position: relative;
+    background-image: url(https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1280x1280/products/89058/93685/Joker-2019-Final-Style-steps-Poster-buy-original-movie-posters-at-starstills__62518.1572351179.jpg?c=2);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(0px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+
+.container .cardd:hover .face.face11{
+    transform: translateY(0px);
+}
+
+.container .cardd .face.face11 .content {
+    transition: 0.6s;
+}
+
+.container .cardd .face.face12 {
+    position: relative;
+    background-image: url(https://bst.icons8.com/wp-content/themes/icons8/app/uploads/2019/05/poster-for-movie.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(0px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+
+.container .cardd:hover .face.face12{
+    transform: translateY(0px);
+}
+
+.container .cardd .face.face12 .content {
+    transition: 0.6s;
+}
+
+.container .cardd .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-300px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+
+.container .cardd:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .cardd .face.face2 .content p {
+    margin: 0;
+    text-align: center;
+    color: #414141;
+    font-family: 'Trebuchet MS';
+    padding: 10px;
+}
+
+.container .cardd .face.face2 .content h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #414141;
+    font-family: 'Trebuchet MS';
+    padding: 35px 0 0 0;
+}
+
+.footer {
+    background: #665A48;
+    width: 100%;
+    text-align: left;    
+    height: 250px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer .footer-left {
+    width: 23%;
+}
+
+.footer .footer-links {
+    color: white;
+    position: absolute;
+    margin: 150px 90px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+}
+
+.footer .footer-links a{
+	display: inline-block;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer .footer-company {
+    color: white;
+    position: absolute;
+    margin: 180px 90px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+}
+
+.footer-logo {
+    position: absolute;
+    width: 120px;
+    left: 90px;
+    top: 20px;
+}
+
+.footer .footer-center {
+    width: 33%;
+    text-align: center;
+}
+
+.footer .footer-center i {
+    font-size: 27px;
+    margin-top: 13px;
+    color: white;
+}
+
+.footer .footer-center p {
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+
+.footer .footer-right {
+    width: 43%;
+}
+
+.footer .footer-right i {
+    font-size: 20px;
+    margin-top: 70px;
+    color: white;
+    padding: 0 10px;
+}
+
+.footer .footer-right .footer-company-about {
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin-top: 20px;
+}
+
+.footer .footer-right .footer-company-about span {
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+}
